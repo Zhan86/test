@@ -69,8 +69,12 @@ public class TicTacToe {
             for (int j = 0; j < 3; j++) {
                 if (field[j][i].equals("0") || field[j][i].equals("-")) check = false;
             }
-            if (check) return "X"; // если нашли 3 Х в столбик, то победа за Х
+            if (check) return "X"; 
         }
+
+
+
+
         // тоже самое для 0
         for (int i = 0; i < 3; i++) {
             boolean check = true;
